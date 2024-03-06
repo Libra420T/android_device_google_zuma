@@ -55,5 +55,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     TetheringOverlay
 
+PRODUCT_COPY_FILES += \
+    device/google/zuma/conf/disable_pds.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/disable_pds.sh
+
 # Touch
 include hardware/google/pixel/touch/device.mk
