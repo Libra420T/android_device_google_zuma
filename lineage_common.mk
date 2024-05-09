@@ -9,7 +9,7 @@ DEVICE_PACKAGE_OVERLAYS += device/google/zuma/overlay-lineage
 
 # Adaptive charging
 PRODUCT_COPY_FILES += \
-    device/google/gs201/conf/adaptivecharging.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/adaptivecharging.xml
+    device/google/zuma/conf/adaptivecharging.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/adaptivecharging.xml
 
 # AiAi Config
 PRODUCT_COPY_FILES += \
