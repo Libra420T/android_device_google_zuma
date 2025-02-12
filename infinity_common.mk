@@ -7,7 +7,7 @@
 PRODUCT_USE_SCUDO := true
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/zuma/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += device/google/zuma/overlay-infinity
 
 # Adaptive charging
 PRODUCT_COPY_FILES += \
@@ -47,13 +47,6 @@ PRODUCT_PACKAGES += \
 # PixelDisplayService
 PRODUCT_PACKAGES += \
     com.android.pixeldisplayservice.auto_generated_rro_product__
-
-PRODUCT_COPY_FILES += \
-    device/google/zuma/conf/disable_pds.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/disable_pds.sh
-
-# Tethering
-PRODUCT_PACKAGES += \
-    TetheringOverlay
 
 PRODUCT_COPY_FILES += \
     device/google/zuma/conf/disable_pds.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/disable_pds.sh

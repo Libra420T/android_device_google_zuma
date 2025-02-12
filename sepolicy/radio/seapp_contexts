@@ -30,7 +30,3 @@ user=_app seinfo=platform name=com.samsung.slsi.engineermode domain=vendor_engin
 # Domain for CatEngineService
 user=system seinfo=platform name=com.google.android.CatEngine domain=cat_engine_service_app type=system_app_data_file levelFrom=all
 
-# CccDkTimeSyncService
-user=_app isPrivApp=true name=com.google.pixel.digitalkey.timesync domain=vendor_cccdktimesync_app type=app_data_file levelFrom=all
-
-user=_app seinfo=GoogleCamera name=com.google.android.GoogleCamera domain=google_camera_app type=app_data_file levelFrom=all
