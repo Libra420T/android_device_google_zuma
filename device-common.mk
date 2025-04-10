@@ -17,6 +17,9 @@
 -include vendor/google_devices/zuma/proprietary/telephony/device-vendor.mk
 include device/google/zuma/device.mk
 
+# System Prop
+TARGET_SYSTEM_PROP := device/google/zuma/system.prop
+
 # Telephony
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.carrierlock.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.carrierlock.xml
