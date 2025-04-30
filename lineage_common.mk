@@ -36,6 +36,9 @@ PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
 # Parts
 PRODUCT_PACKAGES += \
     GoogleParts
+    
+TARGET_USES_SCUDO := true
+PRODUCT_USES_SCUDO := true
 
 # Tethering
 PRODUCT_PACKAGES += \
