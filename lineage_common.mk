@@ -41,6 +41,9 @@ PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
 PRODUCT_PACKAGES += \
     GoogleParts
 
+# SCUDO    
+TARGET_USES_SCUDO := true
+
 # Tethering
 PRODUCT_PACKAGES += \
     TetheringOverlay
